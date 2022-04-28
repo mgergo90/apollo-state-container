@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Apollo state container
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is an example project how apollo local only field can be used for state management.
 
 ## Available Scripts
 
@@ -13,6 +13,14 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
+
+### `yarn apollo:download`
+
+Download the schema from dummy api
+
+### `yarn apollo:codegen`
+
+Generates the types for the graphql queries
 
 ### `npm test`
 
