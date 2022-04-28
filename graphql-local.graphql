@@ -1,0 +1,7 @@
+type SelectedPlanets {
+  planets: [Planet!]!
+}
+
+extend type Root {
+  selectedPlanets: SelectedPlanets!
+}
